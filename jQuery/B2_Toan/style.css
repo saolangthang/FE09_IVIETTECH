@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+    /* background-color: #d4c797; */
+  
+}
+.box{
+    width: 500px;
+    height: 500px;
+    /* position: relative; */
+    border: 3px solid black;
+}
+.cell{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    background-color: crimson;
+}
