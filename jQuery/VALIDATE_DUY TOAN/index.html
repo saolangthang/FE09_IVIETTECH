@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MEMBERSHIP FORM </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+        <script type="text/javascript" src="js/jquery.validate.min.js"></script>
+</head>  
+    
+
+
+<body>
+   
+    <form action="" id="membershipForm">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>MEMBERSHIP FORM</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Resgistration Informaiton</h2>
+                </div>
+            </div>
+            <div class="row m-2">
+                <div class="col-md-2">
+                    <label for="email"> Email Address: </label>
+                </div>
+                <div class="col-md-4">
+                    <input type="email" class="form-control" name="email">
+                </div>
+                <div class="col-md-5 mess text-left">*</div>
+            </div>
+            <div class="row m-2">
+                <div class="col-md-2">
+                    <label for="password"> Password: </label>
+                </div>
+                <div class="col-md-4">
+                    <input type="password" class="form-control" id="password" name="password" >
+                </div>
+                <div class="col-md-5 mess text-left">*</div>
+            </div>
+            <div class="row m-2">
+                <div class="col-md-2">
+                    <label for="re-password">Verify Password: </label>
+                </div>
+                <div class="col-md-4">
+                    <input type="password" class="form-control" name="re-password">
+                </div>
+                <div class="col-md-5 mess text-left">*</div>
+            </div>
+
+            <div class="row m-2">
+                <div class="col-md-12">
+                    <h2>Member Infomation</h2>
+                </div>
+            </div>
+            <div class="row m-2">
+                <div class="col-md-2">
+                    <label for="type">Membership type: </label>
+                </div>
+                <div class="col-md-4">
+                    <input type="radio" class="form-check-input" name="type" class="x1" value="individual" checked> Individual<br>
+                    <input type="radio" class="form-check-input" name="type" class="x1" value="corporate"> Corporate<br>
+                    
+                </div>
+            </div>
+            <div class="row m-2">
+                <div class="col-md-2">
+                    <label for="company"> Company Name: </label>
+                </div>
+                <div class="col-md-4">
+                    <input type="text" class="form-control" name="company" id="company" disabled >
+                </div>
+                <div class="col-md-5 mess text-left"></div>
+            </div>
+            <div class="row m-2">
+                <div class="col-md-2">
+                    <label for="firstName"> First Name: </label>
+                </div>
+                <div class="col-md-4">
+                    <input type="text" class="form-control" name="firstName">
+                </div>
+                <div class="col-md-5 mess text-left">*</div>
+            </div>
+            <div class="row m-2">
+                <div class="col-md-2">
+                    <label for="lastName"> Last Name: </label>
+                </div>
+                <div class="col-md-4">
+                    <input type="text" class="form-control" name="lastName">
+                </div>
+                <div class="col-md-5 mess text-left">*</div>
+            </div>
+            <div class="row m-2">
+                <div class="col-md-2">
+                    <label for="phone"> Phone Number: </label>
+                </div>
+                <div class="col-md-4">
+                    <input type="tel" class="form-control" name="phone" placeholder="999-999-9999">
+                </div>
+                <div class="col-md-5 mess text-left">*</div>
+            </div>
+            <div class="row m-2">
+                <h2>Submit Membership</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-4">
+                    <button type="submit" class="btn btn-primary btn-lg ">Submit</button>
+                    <button type="reset" class="btn btn-danger btn-lg ">Reset</button>
+                    
+                </div>
+            </div>
+        </div>
+    </form>
+
+
+ 
+
+    <script type="text/javascript" src="js/myJS.js"></script>
+</body>
+
+</html>
