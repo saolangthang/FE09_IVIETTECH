@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HELLO WORLD </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.min.js"></script>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>User Manager</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <form action="" id="formUser">
+                    <div class="row m-2">
+                        <div class="col-md-1">
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="col-md-4">
+                            <input type="text" class="form-control" name="name" id="name">
+                        </div>
+                        <div class="col-md-1"></div>
+                        <div class="col-md-1">
+                            <label for="code">Code</label>
+                        </div>
+                        <div class="col-md-4">
+                            <input type="text" class="form-control" name="code" id="code">
+                        </div>
+                    </div>
+                    <div class="row m-2">
+                        <div class="col-md-1">
+                            <label for="address">Address</label>
+                        </div>
+                        <div class="col-md-4">
+                            <input type="text" class="form-control" name="address" id="address">
+                        </div>
+                        <div class="col-md-1"></div>
+                        <div class="col-md-1">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="col-md-4">
+                            <input type="email" class="form-control" placeholder="hihi@gmail.com" name="email"
+                                id="email">
+                        </div>
+                    </div>
+                    <div class="row m-2">
+                        <div class="col-md-1">
+                            <label for="password">Password</label>
+                        </div>
+                        <div class="col-md-4">
+                            <input type="text" class="form-control" name="password" id="password">
+                        </div>
+                        <div class="col-md-1"></div>
+                        <div class="col-md-1">
+                            <label for="userName">User Name</label>
+                        </div>
+                        <div class="col-md-4">
+                            <input type="text" class="form-control" name="userName" id="userName">
+                        </div>
+                    </div>
+                    <div class="row m-2">
+                        <div class="col-md-5 d-flex justify-content-around">
+                            <button type="submit" class="btn btn-success add" id="addUsers">Add</button>
+                            <button type="button" class="btn btn-danger" id="deleteUsers">Delete</button>
+                            <button type="button" class="btn btn-info" id="editUsers">Edit</button>
+                            <button type="button" class="btn btn-primary" id="saveUsers" disabled>Save</button>
+                            <button type="button" class="btn btn-warning">Exit</button>
+                        </div>
+
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-3">
+        <table class="table table-bordered table-secondary">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Code</th>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Email</th>
+                    <th>User Name</th>
+                </tr>
+            </thead>
+            <tbody id="tableUsers">
+             
+            </tbody>
+        </table>
+    </div>
+
+
+
+    <script type="text/javascript" src="js/myJS.js"></script>
+</body>
+
+</html>

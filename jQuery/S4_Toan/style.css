@@ -1,0 +1,18 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+   
+  
+}
+.error{
+    color:red;
+
+}
+input.error{
+    border: 1px dotted red;
+}
