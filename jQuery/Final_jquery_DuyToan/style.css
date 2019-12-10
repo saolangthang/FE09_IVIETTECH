@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+   
+  
+}
+#tabs{
+    width: 50%;
+}
+#tabs ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 20%;
+    
+}
+.error{
+    color:red;
+
+}
+input.error{
+    border: 1px dotted red;
+}
+/* #tabs ul li{
+    width: 50%;
+} */
